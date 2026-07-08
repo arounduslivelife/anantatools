@@ -1,17 +1,26 @@
-# ananta_tools
+# Ananta Tools
 
-A new Flutter project.
+A versatile Flutter desktop application for managing network and system utilities.
+
+## Features
+
+- **Network Scanner**: Scan for active devices and services on your network.
+- **Printer Manager**: Manage local and network printers.
+- **Services Manager**: Manage and monitor system services.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built with [Flutter](https://flutter.dev) and [Fluent UI](https://pub.dev/packages/fluent_ui).
 
-A few resources to get you started if this is your first Flutter project:
+To run the application locally:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+flutter pub get
+flutter run -d windows
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- flutter
+- fluent_ui: ^4.16.0
+- cupertino_icons: ^1.0.8

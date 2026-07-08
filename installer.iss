@@ -1,7 +1,7 @@
 #define MyAppName "Ananta Tools"
 #define MyAppVersion "1.2.1"
 #define MyAppPublisher "Ananta"
-#define MyAppExeName "ananta_tools.exe"
+#define MyAppExeName "AnantaTools.exe"
 
 [Setup]
 AppId={{C7892CE8-CD3E-4B78-A630-BC859664D908}
@@ -23,7 +23,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "f:\flutter_projects\ananta_tools\build\windows\x64\runner\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "f:\flutter_projects\ananta_tools\build\windows\x64\runner\Release\ananta_tools.exe"; DestDir: "{app}"; DestName: "{#MyAppExeName}"; Flags: ignoreversion
 Source: "f:\flutter_projects\ananta_tools\build\windows\x64\runner\Release\*.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "f:\flutter_projects\ananta_tools\build\windows\x64\runner\Release\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 
